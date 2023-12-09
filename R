@@ -1,0 +1,14 @@
+from queue import PriorityQueue
+
+# Step 1: Create a Priority Queue
+my_priority_queue = PriorityQueue()
+
+# Step 2: Add an element to the Priority Queue
+my_priority_queue.put((3, "Third"))  # Tuple with priority (integer) and data
+
+# Step 3: Pop an element from the Priority Queue
+popped_element = my_priority_queue.get()
+
+# Step 4: Show the output
+print("Priority Queue:", my_priority_queue.queue)
+print("Popped element from the Priority Queue:", popped_element)
